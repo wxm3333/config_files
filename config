@@ -1,0 +1,17 @@
+ServerAliveInterval 60
+host github.mit.edu
+  User git
+  Hostname github.mit.edu
+  IdentityFile ~/.ssh/gitmit
+Host shanon
+  User xiaomin
+  Hostname 18.27.79.59
+  IdentityFile ~/.ssh/gitmit
+Host doraemon
+  User xiaomin
+  Hostname 18.27.127.59
+  IdentityFile ~/.ssh/gitmit
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
