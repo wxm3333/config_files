@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "files.trimTrailingWhitespace": true,
+	"files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "vim.handleKeys": {
+        "<C-k>": false,
+        "<C-w>": false
+    },
+    "window.zoomLevel": 0,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.commandsToSkipShell": [
+        // Send quick open's keybinding to the shell
+        "-workbench.action.quickOpen",
+    ],
+}
