@@ -2,6 +2,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'NLKNguyen/papercolor-theme'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -159,6 +160,5 @@ nnoremap <leader>p :CtrlP :pwd<CR>
 
 
 set background=dark
-colorscheme monokai
-"let g:solarized_diffmode="high"
+colorscheme PaperColor
 
